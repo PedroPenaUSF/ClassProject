@@ -32,9 +32,9 @@ namespace Wicksy_Business
                else
                {
                  
-                 candlesSold += (previousGroupTotal - 1) * friendsInGroup[j];
+                 candlesSold += (previousGroupTotal) * friendsInGroup[j];
                  magnitude += 1;
-                 previousGroupTotal = (previousGroupTotal - 1) * friendsInGroup[j];
+                 previousGroupTotal = (previousGroupTotal) * friendsInGroup[j];
                }
 
                if (candlesSold >= candlesNeededToSell)
